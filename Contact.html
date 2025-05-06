@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6f3ff;
+      color: #333;
+    }
+
+    .header {
+      background-color: #99ccff;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      color: #003366;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .contact-box {
+      background-color: #ffffff;
+      border: 2px solid #99ccff;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .contact-box h3 {
+      margin-top: 0;
+      color: #0066cc;
+    }
+
+    .contact-info {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .submit-btn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #66b3ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #3399ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    📬 Contact Us
+  </div>
+
+  <div class="container">
+    <div class="contact-box">
+      <h3>We're here to help!</h3>
+      <div class="contact-info">
+        <strong>Email:</strong> support@educationsite.com<br>
+        <strong>Phone:</strong> +91 98765 43210<br>
+        <strong>Address:</strong> 123 Learning Street, Knowledge City, India
+      </div>
+
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
